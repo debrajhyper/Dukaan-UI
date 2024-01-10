@@ -4,7 +4,7 @@ import { arrowDownIcon } from "../../icons"
 
 export function Dashboard() {
     return (
-        <div className='flex w-full h-full flex-col gap-[32px] items-start flex-nowrap p-[36px]'>
+        <div className='flex w-full h-full flex-col gap-[32px] items-start flex-nowrap p-[15px] sm:p-[36px]'>
             <section className='flex flex-col gap-[24px] items-start self-stretch shrink-0 flex-nowrap'>
                 <div className='flex justify-between items-center self-stretch shrink-0 flex-nowrap'>
                     <span className="shrink-0 basis-auto text-[20px] font-medium leading-[28px] text-[#1a181e] text-left whitespace-nowrap">
