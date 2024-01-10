@@ -30,7 +30,7 @@ export function TableDisplay() {
                                     const { name, align, icon } = item
                                     return (
                                         <th key={index} className={`w-full flex gap-[4px] justify-${align} items-center grow shrink-0 basis-0 flex-nowrap`}>
-                                            <span className={`flex justify-${align} items-start shrink-0 basis-auto text-[14px] font-medium leading-[20px] text-[#4c4c4c] relative text-right whitespace-nowrap z-[104]`}>
+                                            <span className={`flex justify-${align} items-start shrink-0 basis-auto text-[14px] font-medium leading-[20px] text-[#4c4c4c] relative text-right whitespace-nowrap`}>
                                                 {name}
                                             </span>
                                             {
